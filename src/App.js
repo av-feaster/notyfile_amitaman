@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {button} from 'reactstrap'
+import {MdPeople,MdFindInPage}from "react-icons/md";
+import { Header } from './components/Header';
+import './app.css'
+ function App(){
+       // eslint-disable-next-line
+     return (
+     <header><Header/></header>
+     );
+ }
+ export default App;
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+ //use https://colorhunt.co/palette/d1ffa200cf950098ef6d0ad3
